@@ -31,39 +31,39 @@ async function successfulLookup(position) {
 	)} km/h`;
 
 	if (geoData["weather"][0]["icon"] == "01d") {
-		weatherIcon.innerHTML = `<img src="/images/day/base Sun.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/base Sun.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "02d") {
-		weatherIcon.innerHTML = `<img src="/images/day/day cloud.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/day cloud.svg" class="weather-icon"></img>`;
 	} else if (
 		geoData["weather"][0]["icon"] == "03d" ||
 		geoData["weather"][0]["icon"] == "04d"
 	) {
-		weatherIcon.innerHTML = `<img src="/images/day/day scatt Cloud.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/day scatt Cloud.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "09d") {
-		weatherIcon.innerHTML = `<img src="/images/day/shower day.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/shower day.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "10d") {
-		weatherIcon.innerHTML = `<img src="/images/day/heavy rain day.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/heavy rain day.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "50d") {
-		weatherIcon.innerHTML = `<img src="/images/day/mist day.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/mist day.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "13d") {
-		weatherIcon.innerHTML = `<img src="/images/day/snow day.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/snow day.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "02n") {
-		weatherIcon.innerHTML = `<img src="/images/night/night cloud.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/night cloud.svg" class="weather-icon"></img>`;
 	} else if (
 		geoData["weather"][0]["icon"] == "03n" ||
 		geoData["weather"][0]["icon"] == "04n"
 	) {
-		weatherIcon.innerHTML = `<img src="/images/night/night scatt Cloud.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/night scatt Cloud.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "09n") {
-		weatherIcon.innerHTML = `<img src="/images/night/shower night.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/shower night.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "10n") {
-		weatherIcon.innerHTML = `<img src="/images/night/heavy rain night.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/heavy rain night.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "50n") {
-		weatherIcon.innerHTML = `<img src="/images/night/mist night.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/mist night.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "13n") {
-		weatherIcon.innerHTML = `<img src="/images/night/snow night.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/snow night.svg" class="weather-icon"></img>`;
 	} else {
-		weatherIcon.innerHTML = `<img src="/images/thunderstorm.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/thunderstorm.svg" class="weather-icon"></img>`;
 	}
 }
 
@@ -90,41 +90,41 @@ async function checkWeather(city) {
 	)} km/h`;
 
 	if (data["weather"][0]["icon"] == "01d") {
-		weatherIcon.innerHTML = `<img src="/images/day/base Sun.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/base Sun.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "02d") {
-		weatherIcon.innerHTML = `<img src="/images/day/day cloud.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/day cloud.svg" class="weather-icon"></img>`;
 	} else if (
 		data["weather"][0]["icon"] == "03d" ||
 		data["weather"][0]["icon"] == "04d"
 	) {
-		weatherIcon.innerHTML = `<img src="/images/day/day scatt Cloud.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/day scatt Cloud.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "09d") {
-		weatherIcon.innerHTML = `<img src="/images/day/shower day.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/shower day.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "10d") {
-		weatherIcon.innerHTML = `<img src="/images/day/heavy rain day.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/heavy rain day.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "50d") {
-		weatherIcon.innerHTML = `<img src="/images/day/mist day.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/mist day.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "13d") {
-		weatherIcon.innerHTML = `<img src="/images/day/snow day.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/day/snow day.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "01n") {
-		weatherIcon.innerHTML = `<img src="/images/night/base Moon.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/base Moon.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "02n") {
-		weatherIcon.innerHTML = `<img src="/images/night/night cloud.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/night cloud.svg" class="weather-icon"></img>`;
 	} else if (
 		data["weather"][0]["icon"] == "03n" ||
 		data["weather"][0]["icon"] == "04n"
 	) {
-		weatherIcon.innerHTML = `<img src="/images/night/night scatt Cloud.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/night scatt Cloud.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "09n") {
-		weatherIcon.innerHTML = `<img src="/images/night/shower night.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/shower night.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "10n") {
-		weatherIcon.innerHTML = `<img src="/images/night/heavy rain night.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/heavy rain night.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "50n") {
-		weatherIcon.innerHTML = `<img src="/images/night/mist night.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/mist night.svg" class="weather-icon"></img>`;
 	} else if (data["weather"][0]["icon"] == "13n") {
-		weatherIcon.innerHTML = `<img src="/images/night/snow night.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/night/snow night.svg" class="weather-icon"></img>`;
 	} else {
-		weatherIcon.innerHTML = `<img src="/images/thunderstorm.svg" class="weather-icon"></img>`;
+		weatherIcon.innerHTML = `<img src="images/thunderstorm.svg" class="weather-icon"></img>`;
 	}
 }
 
