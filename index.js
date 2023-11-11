@@ -47,6 +47,8 @@ async function successfulLookup(position) {
 		weatherIcon.innerHTML = `<img src="images/day/mist day.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "13d") {
 		weatherIcon.innerHTML = `<img src="images/day/snow day.svg" class="weather-icon"></img>`;
+	} else if (data["weather"][0]["icon"] == "01n") {
+		weatherIcon.innerHTML = `<img src="images/night/base Moon.svg" class="weather-icon"></img>`;
 	} else if (geoData["weather"][0]["icon"] == "02n") {
 		weatherIcon.innerHTML = `<img src="images/night/night cloud.svg" class="weather-icon"></img>`;
 	} else if (
