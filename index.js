@@ -8,7 +8,7 @@ const weatherIcon = document.querySelector(".weather-icon-container");
 async function successfulLookup(position) {
 	const { latitude, longitude } = position.coords;
 	const response = await fetch(
-		`http://api.openweathermap.org/data/2.5/weather?lat=${
+		`https://api.openweathermap.org/data/2.5/weather?lat=${
 			Math.round(latitude * 10) / 10
 		}&lon=${longitude}&appid=${apiKey}&units=metric`
 	);
